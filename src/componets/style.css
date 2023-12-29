@@ -1,0 +1,354 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Oswald:wght@400;600;700&family=PT+Sans:wght@400;700&family=Poppins:wght@400;500;700;900&family=Roboto+Flex:wght@400;500;700;900&family=Roboto:wght@400;700;900&display=swap');
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+ */
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* Header */
+.navbar-brand img {
+    margin-right: 0.5rem;
+    height: 1.8rem;
+}
+
+.navbar-brand {
+    color: #000;
+    font-size: clapm(1.2rem, 2.5vw 3rem);
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-nav img {
+    height: 2.4rem;
+}
+
+@media (max-width:500px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* SeachSection */
+.inputGroup {
+    width: 100%;
+    position: relative;
+}
+
+.callToSerach {
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.searchInput {
+    width: 75%;
+    height: 1.9375rem;
+    flex-shrink: 0;
+    border-radius: 0.8125rem;
+    background: #FFEFEF;
+    color: rgba(0, 0, 0, 0.61);
+    font-family: Orelega One;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.searchBtn {
+    width: 2.625rem;
+    height: 1.9375rem;
+    border-radius: 10.3125rem;
+    background: linear-gradient(180deg, #C2F0F3 0%, rgba(217, 217, 217, 0.00) 100%);
+    position: absolute;
+    top: 0%;
+    right: 12%;
+}
+
+.searchIcon {
+    width: 1.3125rem;
+    height: 1.3125rem;
+}
+
+.searchIcon:hover {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Footer */
+
+.social-icon {
+    width: 1.5625rem;
+    height: 1.5625rem;
+    margin: 0 0.5rem;
+}
+
+.social-icon-yt {
+    width: 1.9375rem;
+    height: 1.9375rem;
+}
+
+.copywriteText {
+    font-size: clamp(0.6rem, 2.5vw, 1.3rem);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* card */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+.awesomeCardConatiner {
+    width: 100%;
+    width: 100%;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.awesomeCardBg {
+    width: 95%;
+    width: 95%;
+}
+
+.awesomeCardPokemon {
+    width: 95%;
+    height: 90%;
+    position: absolute;
+    left: -27%;
+    bottom: 10%;
+}
+
+.awesomeCardText {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    right: 3%;
+    fill: linear-gradient(180deg, #DDE8D6 0%, rgba(255, 229, 229, 0.00) 100%);
+}
+
+.awesomeCardText h4 {
+    color: #000;
+    text-shadow: 0px 8px 8px 0px rgba(153, 162, 160, 0.066);
+    font-family: "Flexo-Medium", arial, sans-serif;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 2rem;
+    letter-spacing: 0.0375rem;
+}
+
+
+.awesomeCardText h5 {
+    color: #000;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 68%;
+    font-weight: 600;
+    letter-spacing: 0.025rem;
+}
+
+@media(min-width:375px) {
+
+    .awesomeCardPokemon {
+        left: -20%;
+    }
+
+
+    .awesomeCardText {
+        right: -7%;
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .awesomeCardConatiner {
+        width: 140%;
+        width: 135%;
+        margin-left: -15%;
+    }
+
+    .awesomeCardText h4 {
+        text-shadow: 0px 8px 8px 0px rgba(153, 162, 160, 0.066);
+        font-size: 85%;
+        line-height: 1.4rem;
+    }
+
+
+    .awesomeCardText h5 {
+        font-size: 62%;
+    }
+
+    .awesomeCardText {
+        top: 5%;
+        right: -3.8%;
+    }
+
+    .awesomeCardPokemon {
+        left: -22%;
+    }
+
+}
+
+
+
+@media (min-width:1024px) {
+
+    .awesomeCardPokemon {
+        left: -24%;
+    }
+
+    .awesomeCardText {
+        top: 15%;
+        right: -0.6%;
+    }
+
+
+    .awesomeCardText h4 {
+        color: #000;
+        font-size: 125%;
+    }
+
+    .awesomeCardText h5 {
+        font-size: 80%;
+    }
+
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* Modal */
+
+.modalContainer {
+    background-color: #ECF8F9;
+}
+
+.modalImage {
+    width: 13rem;
+    height: 13rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.Pokédex {
+    margin-top: -35%;
+    display: grid;
+    width: 350px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 180px repeat(8, 35px) 1fr;
+    gap: 0 0.5rem;
+
+}
+
+.item {
+    /* background-color: rgb(158, 137, 137); */
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+}
+
+.item2 {
+    justify-content: ;
+}
+
+.item4 {
+    grid-area: 3/1/4/-1;
+
+}
+
+.item5 {
+    grid-area: 4/1/5/-1;
+
+}
+
+.item6 {
+    grid-area: 5/1/6/-1;
+
+}
+
+.item7 {
+    grid-row: 6/7;
+    grid-column: 1/-1;
+}
+
+.item8 {
+    grid-row: 7/8;
+    grid-column: 1/-1;
+    gap: 1rem;
+}
+
+.item9 {
+    grid-row: 8/9;
+    grid-column: 1/-1;
+    gap: 1rem;
+}
+
+
+
+.item10 {
+    grid-row: 9/10;
+    grid-column: 1/-1;
+}
+
+.item11 {
+    grid-row: 10/11;
+    grid-column: 1/-1;
+    display: flex;
+}
+
+.item11 p {
+    padding: 0 0.1rem;
+
+}
